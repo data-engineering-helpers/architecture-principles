@@ -7,7 +7,7 @@ intends to collaborate on specifying architecture principles and diagrams
 for a typical data platform with the so-called Modern Data Stack (MDS).
 
 Even though the members of the GitHub organization may be employed by
-some companies, they spaek on their personal behalf and do not represent
+some companies, they speak on their personal behalf and do not represent
 these companies.
 
 # Diagrams
