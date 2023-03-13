@@ -19,5 +19,9 @@ these companies.
 ## Data engineering
 * See the data engineering diagram online: https://excalidraw.com/#json=JEBLmKiMyWf30qO6mGSsh,60WEhfdu94-kEIsbQ7oxaA
 
+* [Excalidraw source on GitHub - Data platform principles for Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-01%20-%20v1.0.excalidraw)
+
+![Data Platform - Principles - Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/material/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-01%20-%20v1.0.png)
+
 
 
