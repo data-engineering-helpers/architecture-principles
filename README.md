@@ -10,6 +10,10 @@ Even though the members of the GitHub organization may be employed by
 some companies, they speak on their personal behalf and do not represent
 these companies.
 
+## References
+* Specifications/principles for a
+  [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
+
 # Diagrams
 
 ## Data engineering
