@@ -19,16 +19,16 @@ these companies.
 ## Data lake - ins and outs
 * [Data engineering Excalidraw diagram online - Data platform principles for data lake ins and outs](https://excalidraw.com/#json=nEuZvbpEQhNxeIoGlkXyr,egsYZyTvBzsC2F6yRCjnPA)
 
-* [Excalidraw source on GitHub - Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%202023-01.excalidraw)
+* [Excalidraw source on GitHub - Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%20latest.excalidraw)
 
-![Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/material/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%202023-01.png)
+![Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/snapshots/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%202023-04%20-%20v2.0.png)
 
 ## Data engineering
 * [Data engineering Excalidraw diagram online - Data platform principles for Data Engineering](https://excalidraw.com/#json=JEBLmKiMyWf30qO6mGSsh,60WEhfdu94-kEIsbQ7oxaA)
 
-* [Excalidraw source on GitHub - Data platform principles for Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-01%20-%20v1.0.excalidraw)
+* [Excalidraw source on GitHub - Data platform principles for Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%20latest.excalidraw)
 
-![Data Platform - Principles - Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/material/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-01%20-%20v1.0.png)
+![Data Platform - Principles - Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/snapshots/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-04%20-%20v2.1.png)
 
 
 
