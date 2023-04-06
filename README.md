@@ -17,14 +17,14 @@ these companies.
 # Diagrams
 
 ## Data lake - ins and outs
-* [Data engineering Excalidraw diagram online - Data platform principles for data lake ins and outs](https://excalidraw.com/#json=nEuZvbpEQhNxeIoGlkXyr,egsYZyTvBzsC2F6yRCjnPA)
+* [Data engineering Excalidraw diagram online - Data platform principles for data lake ins and outs](https://excalidraw.com/#json=mv7jSkpTewcQb_S4raJ5G,S6aAoK8gA3VroJ5ai8Kb6w)
 
 * [Excalidraw source on GitHub - Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%20latest.excalidraw)
 
 ![Data platform principles for data lake ins and outs](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/snapshots/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%202023-04%20-%20v2.0.png)
 
 ## Data engineering
-* [Data engineering Excalidraw diagram online - Data platform principles for Data Engineering](https://excalidraw.com/#json=JEBLmKiMyWf30qO6mGSsh,60WEhfdu94-kEIsbQ7oxaA)
+* [Data engineering Excalidraw diagram online - Data platform principles for Data Engineering](https://excalidraw.com/#json=UPsnozgpMAxRaz3feC23y,n478x5MVcgCz1XTZ7h9qHw)
 
 * [Excalidraw source on GitHub - Data platform principles for Data Engineering](https://github.com/data-engineering-helpers/architecture-principles/blob/main/diagrams/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%20latest.excalidraw)
 
