@@ -11,6 +11,7 @@ some companies, they speak on their personal behalf and do not represent
 these companies.
 
 ## References
+* [Material for the Data platform - Architecture principles](material/)
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
 
