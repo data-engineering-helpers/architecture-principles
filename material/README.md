@@ -2,7 +2,7 @@ Material for the Data platform Architecture principles
 ======================================================
 
 # Overview
-[That page](https://github.com/data-engineering-helpers/architecture-principles/glob/main/material/README.md)
+[That page](https://github.com/data-engineering-helpers/architecture-principles/blob/main/material/README.md)
 collects some material for the
 [Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles).
 
