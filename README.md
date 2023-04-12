@@ -15,6 +15,7 @@ these companies.
 * Specifications/principles for a
   [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
   + [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go 
+* [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts/blob/main/README.md)
 * [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
 
 # Diagrams
