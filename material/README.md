@@ -8,7 +8,7 @@ collects some material for the
 
 # References
 
-## Collection of articles
+## Articles
 
 ### Data Materialization is a Convergence Problem
 * Title: Data Materialization is a Convergence Problem
@@ -47,6 +47,10 @@ collects some material for the
 * Author: Ari Joury
 * Date: August 2020
 * On Medium: https://towardsdatascience.com/why-developers-are-falling-in-love-with-functional-programming-13514df4048e
+
+#### Data centric manifesto
+* Homepage: http://www.datacentricmanifesto.org/
+* Principles: http://www.datacentricmanifesto.org/principles/
 
 ## Books
 
