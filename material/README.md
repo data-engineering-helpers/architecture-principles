@@ -32,11 +32,28 @@ collects some material for the
 
 ### Principles - Alex Ewerlöf's guiding principles
 * Title: My guiding principles after 20 years of programming
-* Author: Alex Ewerlöf ([Alex Ewerlöf on LinkedIn](https://www.linkedin.com/in/alexewerlof/),
-  [Alex Ewerlöf on Substack](https://substack.com/profile/87732486-alex-ewerlof))
 * Date: January 2020
-* Link to the article: https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c
+* Author: Alex Ewerlöf
+  ([Alex Ewerlöf on LinkedIn](https://www.linkedin.com/in/alexewerlof/),
+  [Alex Ewerlöf on Substack](https://substack.com/profile/87732486-alex-ewerlof))
+* Link to the article:
+  https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c
 * Publisher: Medium
+
+### Design docs
+
+#### Writing design docs for data pipelines
+* Title: Writing design docs for data pipelines
+* Date: May 2023
+* Author: Mahdi Karabiben
+  ([Mahdi Karabiben on LinkedIn](https://www.linkedin.com/in/mahdikarabiben/),
+  [Mahdi Karabiben on Medium](https://mahdiqb.medium.com/about))
+* Link to the article:
+  https://towardsdatascience.com/writing-design-docs-for-data-pipelines-d49550f95580
+
+#### Design docs at Google
+* Link to the presentation page:
+  https://www.industrialempathy.com/posts/design-docs-at-google/
 
 ### Principles - Functional Data Engineering
 
