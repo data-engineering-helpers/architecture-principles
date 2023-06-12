@@ -118,6 +118,23 @@ collects some material for the
   + It makes hiring and onboarding so much easier
   + A single source of truth makes everyone smarter
 
+#### Doc as Code
+* Title: Docs as Code
+* Author: [Eric Holscher](https://ericholscher.com/)
+* Link to the page:
+  https://www.writethedocs.org/guide/docs-as-code/
+* Publisher: [Write the Docs](https://www.writethedocs.org/)
+* Documentation as Code (Docs as Code) refers to a philosophy that you should be writing documentation
+  with the same tools as code:
+  + Issue Trackers
+  + Version Control (Git)
+  + Plain Text Markup (Markdown, reStructuredText, Asciidoc)
+  + Code Reviews
+  + Automated Tests
+* This means following the same workflows as development teams, and being integrated in the product team.
+  It enables a culture where writers and developers both feel ownership of documentation, and work together
+  to make it as good as possible.
+
 #### How we manage documentation at Funding Circle for our Data Platform
 * Title: How we manage documentation at Funding Circle for our Data Platform
 * Date: April 2023
@@ -145,3 +162,7 @@ collects some material for the
 
 ### Twelve-Factor (12factor) Application
 * Homepage: https://12factor.net/
+
+### docToolchain
+* Homepage: https://doctoolchain.org/docToolchain
+
