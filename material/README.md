@@ -89,6 +89,19 @@ collects some material for the
 * Homepage: http://www.datacentricmanifesto.org/
 * Principles: http://www.datacentricmanifesto.org/principles/
 
+### Principles - Airflow not intended to process data
+* Title: Don’t Use Apache Airflow in That Way
+* Date: May 2023
+* Author: Ansam Yousry (
+  [Ansam Yousry on LinkedIn](https://www.linkedin.com/in/ansam-yousry-34b32b116/),
+  [Ansam Yousry on Medium](https://medium.com/@ansam.yousry))
+* Link to the article:
+  https://medium.com/illumination/what-apache-airflow-is-not-e9dc9722500b
+* Publisher: Medium
+* Summary: Airflow is not a data streaming or processing tool, but it is a good orchestrator
+  for managing data pipelines. Airflow integrates well with specialized data tools, allowing building
+  complete and scalable data pipeline solutions
+
 ## Books
 
 ### Shipit!
