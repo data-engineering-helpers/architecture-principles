@@ -135,6 +135,14 @@ collects some material for the
   It enables a culture where writers and developers both feel ownership of documentation, and work together
   to make it as good as possible.
 
+#### Help engineers become better writers
+* Title: Using Vale to help engineers become better writers
+* Date: April 2023
+* Author: [François Violette](https://www.linkedin.com/in/francoisviolette/)
+* Link to the article:
+  https://engineering.contentsquare.com/2023/using-vale-to-help-engineers-become-better-writers/
+* Publisher: Contentsquare
+
 #### How we manage documentation at Funding Circle for our Data Platform
 * Title: How we manage documentation at Funding Circle for our Data Platform
 * Date: April 2023
