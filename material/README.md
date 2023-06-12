@@ -89,7 +89,7 @@ collects some material for the
 * Homepage: http://www.datacentricmanifesto.org/
 * Principles: http://www.datacentricmanifesto.org/principles/
 
-### Principles - Keep orchestration and data processing separated
+### Principles - Orchestration
 
 #### Don't use Apache Airflow in that way
 * Title: Don’t Use Apache Airflow in That Way
@@ -104,7 +104,7 @@ collects some material for the
   for managing data pipelines. Airflow integrates well with specialized data tools, allowing building
   complete and scalable data pipeline solutions
 
-### Principles - Importance of the documentation
+### Principles - Documentation
 
 #### Atlassian - The importance of documentation
 * Title: The importance of documentation (because it’s way more than a formality)
@@ -117,6 +117,16 @@ collects some material for the
   + Documentation cuts down duplicative work
   + It makes hiring and onboarding so much easier
   + A single source of truth makes everyone smarter
+
+#### How we manage documentation at Funding Circle for our Data Platform
+* Title: How we manage documentation at Funding Circle for our Data Platform
+* Date: April 2023
+* Author: Nikolajs Skrjabins (
+  [Nikolajs Skrjabins on LinkedIn](https://www.linkedin.com/in/nikolajs-skrjabins/),
+  [Nikolajs Skrjabins on Medium](https://nikolajs-skrjabins.medium.com/))
+* Link to the article:
+  https://medium.com/funding-circle/how-we-manage-documentation-at-funding-circle-for-our-data-platform-960a422b9b2e
+* Publisher: Medium
 
 ## Books
 
