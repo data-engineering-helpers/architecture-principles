@@ -89,7 +89,9 @@ collects some material for the
 * Homepage: http://www.datacentricmanifesto.org/
 * Principles: http://www.datacentricmanifesto.org/principles/
 
-### Principles - Airflow not intended to process data
+### Principles - Keep orchestration and data processing separated
+
+#### Don't use Apache Airflow in that way
 * Title: Don’t Use Apache Airflow in That Way
 * Date: May 2023
 * Author: Ansam Yousry (
@@ -101,6 +103,20 @@ collects some material for the
 * Summary: Airflow is not a data streaming or processing tool, but it is a good orchestrator
   for managing data pipelines. Airflow integrates well with specialized data tools, allowing building
   complete and scalable data pipeline solutions
+
+### Principles - Importance of the documentation
+
+#### Atlassian - The importance of documentation
+* Title: The importance of documentation (because it’s way more than a formality)
+* Link to the page:
+  https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation
+* Publisher: Atlassian
+* Documentation should be your best friend:
+  + A single source of truth saves time and energy
+  + Documentation is essential to quality and process control
+  + Documentation cuts down duplicative work
+  + It makes hiring and onboarding so much easier
+  + A single source of truth makes everyone smarter
 
 ## Books
 
