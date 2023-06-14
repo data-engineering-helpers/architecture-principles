@@ -153,6 +153,9 @@ collects some material for the
   https://medium.com/funding-circle/how-we-manage-documentation-at-funding-circle-for-our-data-platform-960a422b9b2e
 * Publisher: Medium
 
+#### BackStage TechDocs
+* BackStage TechDocs: https://backstage.io/docs/features/techdocs/
+
 ## Books
 
 ### Shipit!
@@ -170,6 +173,20 @@ collects some material for the
 
 ### Twelve-Factor (12factor) Application
 * Homepage: https://12factor.net/
+
+### BackStage
+* GitHub page for Backstage: https://github.com/backstage/backstage
+  + Getting started: https://backstage.io/docs/getting-started/
+* BackStage TechDocs: https://backstage.io/docs/features/techdocs/
+* BackStage software templates: https://backstage.io/docs/features/software-templates/
+* BackStage software catalog: https://backstage.io/docs/features/software-catalog/
+
+### Cookiecutter
+* Cookiecutter home page: https://cookiecutter.readthedocs.io/en/stable/
+  + GitHub page: https://github.com/cookiecutter/cookiecutter
+* Cruft, bringing Git-based workflows on top of Cookiecutter:
+  + Cruft home page: https://cruft.github.io/cruft/
+  + GitHub page: https://github.com/cruft/cruft/  
 
 ### docToolchain
 * Homepage: https://doctoolchain.org/docToolchain
