@@ -10,6 +10,26 @@ collects some material for the
 
 ## Articles
 
+### Wikipedia
+
+#### Software engineering / software development
+* [Wikipedia - Software development](https://en.wikipedia.org/wiki/Software_development)
+* [Wikipedia - Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
+* [Wikipedia - Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
+* [Wikipedia - Software documentation](https://en.wikipedia.org/wiki/Software_documentation)
+* [Wikipedia - Software testing](https://en.wikipedia.org/wiki/Software_testing)
+* [Wikipedia - Software bugs](https://en.wikipedia.org/wiki/Software_bugs)
+* [Wikipedia - Software framework](https://en.wikipedia.org/wiki/Software_framework)
+* [Wikipedia - Application software](https://en.wikipedia.org/wiki/Application_software)
+* [Wikipedia - Software development process](https://en.wikipedia.org/wiki/Software_development_process)
+
+#### Data engineering
+* [Wikipedia - Data engineering](https://en.wikipedia.org/wiki/Data_engineering)
+* [Wikipedia - Data processing](https://en.wikipedia.org/wiki/Data_processing)
+* [Wikipedia - Data cleaning](https://en.wikipedia.org/wiki/Data_cleaning)
+* [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
+* [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
+
 ### The next big step forwards for analytics engineering
 * Title: The next big step forwards for analytics engineering
 * Date: April 2023
@@ -168,6 +188,27 @@ collects some material for the
 ### Open collection of architecture books
 * A few software architecture books, according to Thilina Ashen Gamage in 2020:
   https://medium.com/@ThilinaAshenGamage/the-best-software-architecture-books-of-all-time-b82b63bb853b
+
+## Blogs / websites
+
+### Martin Fowler
+* [Martin Fowler on Wikipedia](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
+* [Martin Fowler profile page on his blog](http://martinfowler.com/aboutMe.html)
+* [Martin Fowler on ThoughtWorks](https://www.thoughtworks.com/profiles/leaders/martin-fowler)
+* Main blog: http://martinfowler.com
+* Data management section: https://martinfowler.com/data/
+
+### Zhamak Dehghani
+* [Zhamak Dehghani on LinkedIn](https://www.linkedin.com/in/zhamak-dehghani/)
+* [Zhamak Dehghani on Twitter](https://twitter.com/zhamakd)
+* Zhamak pinpointed the concept of
+  [Data Mesh](https://en.wikipedia.org/wiki/Data_mesh)
+  in [a famous article on ThoughtWorks](https://martinfowler.com/articles/data-monolith-to-mesh.html)
+  in May 2019
+
+### Joel Spolsky
+* [Joel Spolsky on Wikipedia](https://en.wikipedia.org/wiki/Joel_Spolsky)
+* Main blog: https://www.joelonsoftware.com/
 
 ## Frameworks
 
