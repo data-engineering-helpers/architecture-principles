@@ -6,13 +6,11 @@ Material for the Data platform Architecture principles
 collects some material for the
 [Data platform - Architecture principles](https://github.com/data-engineering-helpers/architecture-principles).
 
-# References
+# Articles
 
-## Articles
+## Wikipedia
 
-### Wikipedia
-
-#### Software engineering / software development
+### Software engineering / software development
 * [Wikipedia - Software development](https://en.wikipedia.org/wiki/Software_development)
 * [Wikipedia - Software engineering](https://en.wikipedia.org/wiki/Software_engineering)
 * [Wikipedia - Computer programming](https://en.wikipedia.org/wiki/Computer_programming)
@@ -23,14 +21,14 @@ collects some material for the
 * [Wikipedia - Application software](https://en.wikipedia.org/wiki/Application_software)
 * [Wikipedia - Software development process](https://en.wikipedia.org/wiki/Software_development_process)
 
-#### Data engineering
+### Data engineering
 * [Wikipedia - Data engineering](https://en.wikipedia.org/wiki/Data_engineering)
 * [Wikipedia - Data processing](https://en.wikipedia.org/wiki/Data_processing)
 * [Wikipedia - Data cleaning](https://en.wikipedia.org/wiki/Data_cleaning)
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
-### The next big step forwards for analytics engineering
+## The next big step forwards for analytics engineering
 * Title: The next big step forwards for analytics engineering
 * Date: April 2023
 * Author: Tristan Handy
@@ -40,7 +38,7 @@ collects some material for the
   https://www.getdbt.com/blog/analytics-engineering-next-step-forwards/
 * Publisher: DBT
 
-### Data Materialization is a Convergence Problem
+## Data Materialization is a Convergence Problem
 * Title: Data Materialization is a Convergence Problem
 * Date: April 2023
 * Author: Alex Rasmussen
@@ -50,7 +48,7 @@ collects some material for the
   https://stkbailey.substack.com/p/data-materialization-is-a-convergence
 * Publisher: Substack
 
-### Principles - Alex Ewerlöf's guiding principles
+## Principles - Alex Ewerlöf's guiding principles
 * Title: My guiding principles after 20 years of programming
 * Date: January 2020
 * Author: Alex Ewerlöf
@@ -60,9 +58,9 @@ collects some material for the
   https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c
 * Publisher: Medium
 
-### Design docs
+## Design docs
 
-#### Writing design docs for data pipelines
+### Writing design docs for data pipelines
 * Title: Writing design docs for data pipelines
 * Date: May 2023
 * Author: Mahdi Karabiben
@@ -71,13 +69,13 @@ collects some material for the
 * Link to the article:
   https://towardsdatascience.com/writing-design-docs-for-data-pipelines-d49550f95580
 
-#### Design docs at Google
+### Design docs at Google
 * Link to the presentation page:
   https://www.industrialempathy.com/posts/design-docs-at-google/
 
-### Principles - Functional Data Engineering
+## Principles - Functional Data Engineering
 
-#### Functional Data Engineering — a modern paradigm for batch data processing
+### Functional Data Engineering — a modern paradigm for batch data processing
 * Title: Functional Data Engineering — a modern paradigm for batch data processing
 * Author: Maxime Beauchemin
 * Date: January 2018
@@ -85,33 +83,33 @@ collects some material for the
   https://maximebeauchemin.medium.com/functional-data-engineering-a-modern-paradigm-for-batch-data-processing-2327ec32c42a
 * Publisher: Medium
 
-#### Transform Your Data Processing with Functional Data Engineering
+### Transform Your Data Processing with Functional Data Engineering
 * Author: Raphaël Mansuy (https://www.linkedin.com/in/raphaelmansuy/)
 * Date: January 2023
 * On LinkedIn feed:
   https://www.linkedin.com/posts/raphaelmansuy_dataengineering-functionalprogramming-activity-7025661748233797632-TQqZ/
 
-#### Functional data engineering - a blueprint
+### Functional data engineering - a blueprint
 * Author: Ananth Packkildurai (https://www.linkedin.com/in/ananthdurai/)
 * Date: December 2022
 * Link to the article:
   https://www.dataengineeringweekly.com/p/functional-data-engineering-a-blueprint
 * Publisher: Substack
 
-#### Why developers are falling in love with functional programming
+### Why developers are falling in love with functional programming
 * Author: Ari Joury
 * Date: August 2020
 * Link to the article:
   https://towardsdatascience.com/why-developers-are-falling-in-love-with-functional-programming-13514df4048e
 * Publisher: Medium
 
-#### Data centric manifesto
+### Data centric manifesto
 * Homepage: http://www.datacentricmanifesto.org/
 * Principles: http://www.datacentricmanifesto.org/principles/
 
-### Principles - Orchestration
+## Principles - Orchestration
 
-#### Don't use Apache Airflow in that way
+### Don't use Apache Airflow in that way
 * Title: Don’t Use Apache Airflow in That Way
 * Date: May 2023
 * Author: Ansam Yousry (
@@ -124,9 +122,9 @@ collects some material for the
   for managing data pipelines. Airflow integrates well with specialized data tools, allowing building
   complete and scalable data pipeline solutions
 
-### Principles - Documentation
+## Principles - Documentation
 
-#### Atlassian - The importance of documentation
+### Atlassian - The importance of documentation
 * Title: The importance of documentation (because it’s way more than a formality)
 * Link to the page:
   https://www.atlassian.com/work-management/knowledge-sharing/documentation/importance-of-documentation
@@ -138,7 +136,7 @@ collects some material for the
   + It makes hiring and onboarding so much easier
   + A single source of truth makes everyone smarter
 
-#### Doc as Code
+### Doc as Code
 * Title: Docs as Code
 * Author: [Eric Holscher](https://ericholscher.com/)
 * Link to the page:
@@ -155,7 +153,7 @@ collects some material for the
   It enables a culture where writers and developers both feel ownership of documentation, and work together
   to make it as good as possible.
 
-#### Help engineers become better writers
+### Help engineers become better writers
 * Title: Using Vale to help engineers become better writers
 * Date: April 2023
 * Author: [François Violette](https://www.linkedin.com/in/francoisviolette/)
@@ -163,7 +161,7 @@ collects some material for the
   https://engineering.contentsquare.com/2023/using-vale-to-help-engineers-become-better-writers/
 * Publisher: Contentsquare
 
-#### How we manage documentation at Funding Circle for our Data Platform
+### How we manage documentation at Funding Circle for our Data Platform
 * Title: How we manage documentation at Funding Circle for our Data Platform
 * Date: April 2023
 * Author: Nikolajs Skrjabins (
@@ -173,32 +171,29 @@ collects some material for the
   https://medium.com/funding-circle/how-we-manage-documentation-at-funding-circle-for-our-data-platform-960a422b9b2e
 * Publisher: Medium
 
-#### BackStage TechDocs
-* BackStage TechDocs: https://backstage.io/docs/features/techdocs/
+# Books
 
-## Books
-
-### Shipit!
+## Shipit!
 * Link on Amazon: https://www.amazon.com/Ship-Practical-Successful-Pragmatic-Programmers-ebook/dp/B01F2OUIY6
 * Authors: Jared Richardson, William A. Gwaltney
 * Date: 21 June 2005
 * Publisher: Pragmatic Bookshelf; 1st edition
 * ISBN-10: 9780974514048 / ISBN-13: 978-0974514048
 
-### Open collection of architecture books
+## Open collection of architecture books
 * A few software architecture books, according to Thilina Ashen Gamage in 2020:
   https://medium.com/@ThilinaAshenGamage/the-best-software-architecture-books-of-all-time-b82b63bb853b
 
-## Blogs / websites
+# Blogs / websites
 
-### Martin Fowler
+## Martin Fowler
 * [Martin Fowler on Wikipedia](https://en.wikipedia.org/wiki/Martin_Fowler_(software_engineer))
 * [Martin Fowler profile page on his blog](http://martinfowler.com/aboutMe.html)
 * [Martin Fowler on ThoughtWorks](https://www.thoughtworks.com/profiles/leaders/martin-fowler)
 * Main blog: http://martinfowler.com
 * Data management section: https://martinfowler.com/data/
 
-### Zhamak Dehghani
+## Zhamak Dehghani
 * [Zhamak Dehghani on LinkedIn](https://www.linkedin.com/in/zhamak-dehghani/)
 * [Zhamak Dehghani on Twitter](https://twitter.com/zhamakd)
 * Zhamak pinpointed the concept of
@@ -206,29 +201,36 @@ collects some material for the
   in [a famous article on ThoughtWorks](https://martinfowler.com/articles/data-monolith-to-mesh.html)
   in May 2019
 
-### Joel Spolsky
+## Joel Spolsky
 * [Joel Spolsky on Wikipedia](https://en.wikipedia.org/wiki/Joel_Spolsky)
 * Main blog: https://www.joelonsoftware.com/
 
-## Frameworks
+# Frameworks
 
-### Twelve-Factor (12factor) Application
+## Twelve-Factor (12factor) Application
 * Homepage: https://12factor.net/
 
-### BackStage
+## BackStage
 * GitHub page for Backstage: https://github.com/backstage/backstage
   + Getting started: https://backstage.io/docs/getting-started/
 * BackStage TechDocs: https://backstage.io/docs/features/techdocs/
 * BackStage software templates: https://backstage.io/docs/features/software-templates/
 * BackStage software catalog: https://backstage.io/docs/features/software-catalog/
 
-### Cookiecutter
+## Cookiecutter
 * Cookiecutter home page: https://cookiecutter.readthedocs.io/en/stable/
   + GitHub page: https://github.com/cookiecutter/cookiecutter
 * Cruft, bringing Git-based workflows on top of Cookiecutter:
   + Cruft home page: https://cruft.github.io/cruft/
   + GitHub page: https://github.com/cruft/cruft/  
 
-### docToolchain
+## docToolchain
 * Homepage: https://doctoolchain.org/docToolchain
+
+# Practices around architecture
+
+## OpenLineage
+OpenLineage feature propoals. For instance,
+https://github.com/OpenLineage/OpenLineage/blob/main/proposals/336/PROPOSALS.md
+
 
