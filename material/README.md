@@ -210,6 +210,27 @@ collects some material for the
 ## Twelve-Factor (12factor) Application
 * Homepage: https://12factor.net/
 
+## Clean architecture
+One of the main principles of clean architecture is nothing more than keeping your options open by changing,
+adding, or removing dependencies as often as you want. We offer two analogies to illustrate this point.
+A good demo project can be found on
+[GitHub by Mattia Battiston](https://github.com/mattia-battiston/clean-architecture-example).
+
+### Articles
+* Articles:
+  + Aug. 2023:
+    [Implementing clean architecture solutions: A practical example](https://developers.redhat.com/articles/2023/08/08/implementing-clean-architecture-solutions-practical-example)
+  + Apr. 2023:
+    [My advice for building maintainable, clean architect](https://developers.redhat.com/articles/2023/04/17/my-advice-building-maintainable-clean-architecture)
+  + Apr. 2023:
+    [My advice for transitioning to a clean architecture platform](https://developers.redhat.com/articles/2023/04/17/my-advice-transitioning-clean-architecture-platform)
+* Authors:
+  + Maarten Vandeperre
+    ([Maarten Vandeperre on LinkedIn](https://www.linkedin.com/in/maarten-vandeperre-8780743b/),
+    [Maarten Vandeperre on RedHat Developer](https://developers.redhat.com/author/maarten-vandeperre))
+  + [Kevin Dubois](https://developers.redhat.com/author/kevin-dubois)
+* Publisher: RedHat Developer
+
 ## BackStage
 * GitHub page for Backstage: https://github.com/backstage/backstage
   + Getting started: https://backstage.io/docs/getting-started/
