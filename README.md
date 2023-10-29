@@ -120,3 +120,23 @@ The data engineering teams cannot deflect their responsibility on the quality
 of the silver/gold/insight data sets to the quality of the source data sets:
 they have to fix the quality of the source data sets if needed.
 
+## Data lake
+* The purpose of the data lake is to serve as a centralized and scalable repository
+  for storing data from various sources
+* Data sets are materialized as both:
+  + Data files with an open standard of storage, namely [Delta](https://delta.io/) whenever possible,
+    or [Parquet](https://parquet.apache.org/) when Delta is not possible
+  + Tables in databases. These tables are served through a standard and open API,
+    namely [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore).
+    [AWS Glue](https://github.com/awslabs/aws-glue-data-catalog-client-for-apache-hive-metastore)
+    and [GCP Dataproc](https://cloud.google.com/dataproc-metastore/docs/hive-metastore) both implement
+    the Hive Metastore API. In the documentation, Glue/Dataproc databases and tables may be interchanged
+    with Hive Metastore databases and tables. The databases and tables are actually metadata (_i.e._,
+    data such as table name and description, column names, types and descriptions, about the data itself);
+    the underlying data are stored in Parquet/Delta, as explained in the point just above
+* The modern data lake is structured around the so-called
+  [medallion architecture](https://www.advancinganalytics.co.uk/blog/medallion-architecture),
+  representing different levels of data "refinement": Bronze, Silver, Gold and Insight. Each level has its own rules
+  and conventions that should be applied systematically and this page serves as a reference of these rules
+  (and should therefore be kept constantly up to date)
+
