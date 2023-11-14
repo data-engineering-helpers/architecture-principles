@@ -28,6 +28,14 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## Why data teams are adopting declarative stateful pipelines
+* Title: Why Data Teams Are Adopting Declarative (Stateful) Pipelines
+* Date: November 2023
+* Author: Iaroslav Zeigerman
+* Link to the article:
+  https://tobikodata.com/why-data-teams-are-adopting-declarative-pipelines.html
+* Publisher: tobiko blog
+
 ## The next big step forwards for analytics engineering
 * Title: The next big step forwards for analytics engineering
 * Date: April 2023
