@@ -213,6 +213,10 @@ collects some material for the
 * [Joel Spolsky on Wikipedia](https://en.wikipedia.org/wiki/Joel_Spolsky)
 * Main blog: https://www.joelonsoftware.com/
 
+## Github -> data-engineer-handbook
+Repo with multiple resources for data engineer skills
+* GitHub repo: https://github.com/DataEngineer-io/data-engineer-handbook
+
 # Frameworks
 
 ## Twelve-Factor (12factor) Application
