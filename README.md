@@ -112,7 +112,7 @@ Data domain data engineering teams are responsible for the (quality
 and service level agreements of the) delivered data sets.
 That responsibility includes checking (and potentially fixing) the quality
 of the source data sets. As an illustration,
-if [medalion](https://www.databricks.com/glossary/medallion-architecture)
+if [medallion](https://www.databricks.com/glossary/medallion-architecture)
 (silver/gold/insight) data sets would be manufactured cars,
 the responsibility encompasses the quality of every single part
 (_e.g._, tires, windshield).
