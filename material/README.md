@@ -179,6 +179,25 @@ collects some material for the
   https://medium.com/funding-circle/how-we-manage-documentation-at-funding-circle-for-our-data-platform-960a422b9b2e
 * Publisher: Medium
 
+## Principles - Infrastructure as code
+
+### SST design principles
+* SST home page: https://sst.dev
+* Page covering the design principles: https://docs.sst.dev/design-principles
+  + Zero config
+  + Progressive disclosure
+  + Attaching permissions
+  + Having an escape hatch 
+
+### We Need a Data Engineering-Specific Language
+* Title: We Need a Data Engineering-Specific Language
+* Date: February 2024
+* Author: Julien Hurault
+  ([Julien Hurault on LinkedIn](https://www.linkedin.com/in/julienhuraultanalytics/))
+* Link to the article:
+  https://juhache.substack.com/p/we-need-a-data-engineering-specific
+* Publisher: Medium
+
 # Books
 
 ## Shipit!
