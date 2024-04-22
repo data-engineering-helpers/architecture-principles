@@ -28,6 +28,15 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## Data Council 2024: The future data stack is composable
+* Title: Data Council 2024: The future data stack is composable, and other hot takes
+* Date: April 2024
+* Author: Case Roberts
+  ([Chase Roberts on LinkedIn](https://www.linkedin.com/in/chasecroberts/),
+  [Chase Roberts on Medium](https://chsrbrts.medium.com/))
+* Link to the article:
+  https://medium.com/vvus/data-council-2024-the-future-data-stack-is-composable-and-other-hot-takes-b6c5f2429e22
+
 ## Why data teams are adopting declarative stateful pipelines
 * Title: Why Data Teams Are Adopting Declarative (Stateful) Pipelines
 * Date: November 2023
