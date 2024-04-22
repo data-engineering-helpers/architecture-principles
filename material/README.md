@@ -37,6 +37,15 @@ collects some material for the
 * Link to the article:
   https://medium.com/vvus/data-council-2024-the-future-data-stack-is-composable-and-other-hot-takes-b6c5f2429e22
 
+## Data Lakehouses, Post-Modern Data Stacks and Enabling Gen AI
+* Title: Data Lakehouses, Post-Modern Data Stacks and Enabling Gen AI: The Rittman Analytics Guide to Modernising Data Analytics in 2024
+* Date: April 2024
+* Author: Mark Rittman
+  ([Mark Rittman on LinkedIn](https://www.linkedin.com/in/markrittman/),
+  [Mark Rittman on Medium](https://markrittman.medium.com/))
+* Link to the article:
+  https://blog.rittmananalytics.com/data-lakehouses-post-modern-data-stacks-and-enabling-gen-ai-the-rittman-analytics-guide-to-b102027b8cf8
+
 ## Why data teams are adopting declarative stateful pipelines
 * Title: Why Data Teams Are Adopting Declarative (Stateful) Pipelines
 * Date: November 2023
