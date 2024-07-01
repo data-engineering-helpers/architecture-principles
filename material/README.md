@@ -28,6 +28,14 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## The Rise of the Data Platform Engineer
+* Title: The Rise of the Data Platform Engineer
+* Date: June 2024
+* Author: Pedram Navid
+  ([Pedram Navid on LinkedIn](https://www.linkedin.com/in/pedramnavid/))
+* Link to the article:
+  https://databased.pedramnavid.com/p/the-rise-of-the-data-platform-engineer
+
 ## Data Council 2024: The future data stack is composable
 * Title: Data Council 2024: The future data stack is composable, and other hot takes
 * Date: April 2024
