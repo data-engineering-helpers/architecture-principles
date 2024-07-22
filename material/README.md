@@ -35,6 +35,12 @@ collects some material for the
   ([Daniel Beach on LinkedIn](https://www.linkedin.com/in/daniel-beach-6ab8b4132/))
 * Link to the article on Substack
   https://dataengineeringcentral.substack.com/p/5-data-engineering-mistakes
+* The 5 common mistakes:
+  * Not embracing simple architecture and design
+  * Not having a good local development environment
+  * Not having a good orchestration and dependency management tool
+  * Not testing code and pipelines before release
+  * Not doing something hard
 
 ## The Rise of the Data Platform Engineer
 * Title: The Rise of the Data Platform Engineer
