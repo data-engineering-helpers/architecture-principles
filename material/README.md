@@ -28,6 +28,14 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## 5 Data Engineering mistakes
+* Title: 5 Data Engineering mistakes, and what to do about them
+* Date: July 2024
+* Author: Daniel Beach
+  ([Daniel Beach on LinkedIn](https://www.linkedin.com/in/daniel-beach-6ab8b4132/))
+* Link to the article on Substack
+  https://dataengineeringcentral.substack.com/p/5-data-engineering-mistakes
+
 ## The Rise of the Data Platform Engineer
 * Title: The Rise of the Data Platform Engineer
 * Date: June 2024
