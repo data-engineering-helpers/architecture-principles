@@ -106,6 +106,16 @@ collects some material for the
   https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c
 * Publisher: Medium
 
+## Zalando's Engineering principles
+* Title: Zalando's Engineering principles
+* GitHub repository: https://github.com/zalando/engineering-principles
+* Overview: in March 2015, we have adopted this set of principles for tech and architecture:
+  * Microservices
+  * API First
+  * REST
+  * Cloud
+  * Software as a Service (SaaS)
+
 ## Design docs
 
 ### Writing design docs for data pipelines
