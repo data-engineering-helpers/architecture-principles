@@ -28,6 +28,25 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## Medallion Architecture in a Data Product World
+* Title: Medallion Architecture in a Data Product World
+* Date: Apr. 2025
+* Author: Elliot Gordon
+  ([Elliot Gordon on LinkedIn](https://www.linkedin.com/in/elliott-cordo/),
+  [Elliot Gordon on Medium](https://medium.com/@datafutures))
+* Link to the article on Medium:
+  https://medium.com/datafutures/medallion-architecture-in-a-data-product-world-3758d17b6cf6
+
+## Data Products: A Case Against Medallion Architecture
+* Title: Data Products: A Case Against Medallion Architecture
+* Date: Feb. 2025
+* Authors:
+  * Animesh Kumar
+  * Shubhanshu Jain
+  * Samadrita Ghosh
+* Link to the article on Medium:
+  https://medium.com/@community_md101/data-products-a-case-against-medallion-architecture-139096ceea08
+
 ## 5 Data Engineering mistakes
 * Title: 5 Data Engineering mistakes, and what to do about them
 * Date: July 2024
