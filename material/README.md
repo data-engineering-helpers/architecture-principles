@@ -28,6 +28,15 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## The 13 software engineering laws
+* Title: The 13 software engineering laws
+* Date: May 2025
+* Author: Anton Zaides
+  ([Anton Zaides on LinkedIn](https://www.linkedin.com/in/anton-zaides/),
+  [Anton Zaides on Substack](https://substack.com/@antonzaides))
+* Link to the article on Substack:
+  https://newsletter.manager.dev/p/the-13-software-engineering-laws
+
 ## Medallion Architecture in a Data Product World
 * Title: Medallion Architecture in a Data Product World
 * Date: Apr. 2025
