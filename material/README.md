@@ -28,6 +28,10 @@ collects some material for the
 * [Wikipedia - Data analytics](https://en.wikipedia.org/wiki/Data_analytics)
 * [Wikipedia - Data science](https://en.wikipedia.org/wiki/Data_science)
 
+## Open standard are key for AI Agents
+
+* LinkedIn post explaining why open standards is key for AI agents: https://www.linkedin.com/posts/andrew-madson_dataengineering-ai-apacheiceberg-ugcPost-7451010518527508480-h5cJ
+
 ## The 13 software engineering laws
 * Title: The 13 software engineering laws
 * Date: May 2025
