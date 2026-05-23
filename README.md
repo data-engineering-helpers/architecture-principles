@@ -1,7 +1,30 @@
-Data platform - Architecture principles
-=======================================
+# Data platform - Architecture principles
 
-# Overview
+## Table of Content (ToC)
+
+* [Data platform \- Architecture principles](#data-platform---architecture-principles)
+  * [Table of Content (ToC)](#table-of-content-toc)
+  * [Overview](#overview)
+  * [References](#references)
+  * [Diagrams](#diagrams)
+    * [Data lake \- ins and outs](#data-lake---ins-and-outs)
+    * [Data engineering](#data-engineering)
+  * [Principles](#principles)
+    * [Production vs non\-production](#production-vs-non-production)
+    * [Persistency of data files](#persistency-of-data-files)
+    * [Format of data files](#format-of-data-files)
+    * [Data processing, from files to files](#data-processing-from-files-to-files)
+    * [Capitalization on data processing software](#capitalization-on-data-processing-software)
+    * [End\-to\-end data responsibility](#end-to-end-data-responsibility)
+    * [Data lake](#data-lake)
+  * [Declarative vs imperative](#declarative-vs-imperative)
+    * [Spec\-driven development (SDD)](#spec-driven-development-sdd)
+    * [Spec\-driven workflow](#spec-driven-workflow)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+## Overview
+
 [This project](https://github.com/data-engineering-helpers/architecture-principles)
 intends to collaborate on specifying architecture principles and diagrams
 for a typical data platform with the so-called Modern Data Stack (MDS).
@@ -11,36 +34,47 @@ some companies, they speak on their personal behalf and do not represent
 these companies.
 
 ## References
+
 * [Material for the Data platform - Architecture principles](material/)
-* Specifications/principles for a
-  [data engineering pipeline deployment tool](https://github.com/data-engineering-helpers/data-pipeline-deployment)
-  + [`dpcctl`, the Data Processing Pipeline (DPP) CLI utility](https://github.com/data-engineering-helpers/dppctl), a Minimal Viable Product (MVP) in Go 
-* [Material for the Data platform - Data contracts](https://github.com/data-engineering-helpers/data-contracts/blob/main/README.md)
-* [Material for the Data platform - Data quality](https://github.com/data-engineering-helpers/data-quality/blob/main/README.md)
-* [Material for the Data platform - Data-lakes, data warehouses, data lake-houses](https://github.com/data-engineering-helpers/data-lakehouse)
-* [Material for the Data platform - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box/blob/main/README.md)
+* [Data Engineering Helpers - Knowledge Sharing - Declarative data pipelines](https://github.com/data-engineering-helpers/declarative-data-pipelines)
+* [Data Engineering Helpers - Knowledge Sharing - Cheat sheet - Databricks AI Dev Kit](https://github.com/data-engineering-helpers/ks-cheat-sheets/tree/main/ai/databricks-ai-dev-kit)
+* [Data Engineering Helpers - Knowledge Sharing - AI Skills](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/ai/rules-skills/)
+* [Data Engineering Helpers - Knowledge Sharing - JavaScript (JS) world](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/programming/js-world/)
+* [Data Engineering Helpers - Knowledge Sharing - Java](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/programming/java-world/)
+* [Data Engineering Helpers - Knowledge Sharing - Python](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/programming/python/)
+* [Data Engineering Helpers - Knowledge Sharing - Spark](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/data-processing/spark/)
+  * [Data Engineering Helpers - Knowledge Sharing - Spark Declarative pipelines (SDP)](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/data-processing/spark/declarative-pipelines/)
+  * [Data Engineering Helpers - Knowledge Sharing - Spark Connect](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/data-processing/spark/spark-connect/)
+  * [Data Engineering Helpers - Knowledge Sharing - Delta Lake](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/data-processing/spark/delta/)
+  * [Data Engineering Helpers - Knowledge Sharing - Unity Catalog (UC)](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/data-catalogs/unity-catalog/)
+* [Data Engineering Helpers - Knowledge Sharing - PostgreSQL](https://github.com/data-engineering-helpers/ks-cheat-sheets/blob/main/db/postgresql/)
+* [Data Engineering Helpers - Knowledge Sharing - Modern Data Stack (MDS) in a box](https://github.com/data-engineering-helpers/mds-in-a-box)
 
-# Diagrams
+## Diagrams
 
-## Data lake - ins and outs
+### Data lake - ins and outs
+
 * [Data engineering Excalidraw diagram online - Data platform principles for data lake ins and outs](https://excalidraw.com/#json=mv7jSkpTewcQb_S4raJ5G,S6aAoK8gA3VroJ5ai8Kb6w)
 
 * [Excalidraw source on GitHub - Data platform principles for data lake ins and outs](diagrams/src/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%20latest.excalidraw)
 
 ![Data platform principles for data lake ins and outs](diagrams/snapshots/Data%20Platform%20-%20Principles%20-%20Data%20Lake%20In%20and%20Out%20-%202023-04%20-%20v2.0.png)
 
-## Data engineering
+### Data engineering
+
 * [Data engineering Excalidraw diagram online - Data platform principles for Data Engineering](https://excalidraw.com/#json=UPsnozgpMAxRaz3feC23y,n478x5MVcgCz1XTZ7h9qHw)
 
 * [Excalidraw source on GitHub - Data platform principles for Data Engineering](diagrams/src/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%20latest.excalidraw)
 
 ![Data Platform - Principles - Data Engineering](diagrams/snapshots/Data%20Platform%20-%20Principles%20-%20Data%20Engineering%20-%202023-04%20-%20v2.1.png)
 
-# Principles
+## Principles
 
-## Production vs non-production
+### Production vs non-production
+
 As a summary, production and non-production environments should be
 as separated as possible, if possible separated by kind of a "Chinese wall":
+
 * Non-production environments should not have access, by design,
   to production resources, including production data
 * The only allowed tasks are the publication of non sensitive data,
@@ -49,12 +83,13 @@ as separated as possible, if possible separated by kind of a "Chinese wall":
 * As data scientists, analysts and engineers have to be able to work
   on realistic data sets, the above principles mean that teams must invest
   on how to create non sensitive data from production data. In order to do so,
-  several processes are possible (_e.g._, anonymisation, obfuscation, aggregation,
-  data generation, simulation). Some specialized companies, such as
-  [Statice+Anonos](https://www.statice.ai/), help in generating
+  several processes are possible (_e.g._, anonymisation, obfuscation,
+  aggregation, data generation, simulation). Some specialized companies,
+  such as [Statice+Anonos](https://www.statice.ai/), help in generating
   non sensitive realistic data sets.
 
-## Persistency of data files
+### Persistency of data files
+
 Once the data files are written to S3, they must never be overwritten.
 The data files are stored in S3 in a persistent way, versioned (_e.g._,
 with [Delta](https://delta.io/)), and must be kept on cloud object storage
@@ -64,6 +99,7 @@ technically possible.
 That principle is the same as the one in the
 [Change Data Capture (CDC)](https://en.wikipedia.org/wiki/Change_data_capture)
 mechanism:
+
 * Regularly, snapshots are taken out of a given data set
 * Snapshots take the shape of Parquet/Delta data files. Functionally, a snapshot
   is similar to a picture taken with a photo camera: it corresponds to the latest
@@ -76,20 +112,23 @@ mechanism:
 * Snapshots data files must be persistent: they must never be overwritten
 * The history may be rebuilt from the succession of the snapshots
 
-The [Delta format](https://delta.io/) applies that principle of keeping persistent
-snapshots/versions of a given data set, while abstracting away the need to version
-and to not overwrite data sets. With Delta, one can store and "overwrite" data sets,
-while in practice the data files are actually versioned snapshot data files and
-the log of transactions is kept along those snapshots/versions so as to allow
-rebuilding of the history.
+The [Delta format](https://delta.io/) applies that principle of keeping
+persistent snapshots/versions of a given data set, while abstracting away
+the need to version and to not overwrite data sets. With Delta, one can store
+and "overwrite" data sets, while in practice the data files are actually
+versioned snapshot data files and the log of transactions is kept along those
+snapshots/versions so as to allow rebuilding of the history.
 
-## Format of data files
+### Format of data files
+
 The format of the structured data files must be Delta wherever possible,
 and Parquet only when Delta is not possible. No other data format is allowed
 on the data lake for structured data.
 
-## Data processing, from files to files
+### Data processing, from files to files
+
 Any data processing task:
+
 1. Makes use of software artifacts (_e.g._, Python wheels,
    Scala JARs, dbt SQL artifacts)
 2. Takes, as input, data files, which are, as mentioned above,
@@ -99,7 +138,8 @@ Any data processing task:
    persistent and versioned, _i.e._, which will never be overwritten
    and which their version allows to uniquely identify
 
-## Capitalization on data processing software
+### Capitalization on data processing software
+
 We capitalize on the (source code of the) software used to process data,
 rather than on the prepared data sets. The software project is instantiated
 from a template (_e.g._, with
@@ -108,7 +148,8 @@ and managed through a Git repository.
 The Git repository may be audited, including the level of compliance
 to the (evolutions of the) template.
 
-## End-to-end data responsibility
+### End-to-end data responsibility
+
 Data domain data engineering teams are responsible for the (quality
 and service level agreements of the) delivered data sets.
 That responsibility includes checking (and potentially fixing) the quality
@@ -121,23 +162,50 @@ The data engineering teams cannot deflect their responsibility on the quality
 of the silver/gold/insight data sets to the quality of the source data sets:
 they have to fix the quality of the source data sets if needed.
 
-## Data lake
+### Data lake
+
 * The purpose of the data lake is to serve as a centralized and scalable repository
   for storing data from various sources
 * Data sets are materialized as both:
-  + Data files with an open standard of storage, namely [Delta](https://delta.io/) whenever possible,
-    or [Parquet](https://parquet.apache.org/) when Delta is not possible
-  + Tables in databases. These tables are served through a standard and open API,
-    namely [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore).
-    [AWS Glue](https://github.com/awslabs/aws-glue-data-catalog-client-for-apache-hive-metastore)
-    and [GCP Dataproc](https://cloud.google.com/dataproc-metastore/docs/hive-metastore) both implement
-    the Hive Metastore API. In the documentation, Glue/Dataproc databases and tables may be interchanged
-    with Hive Metastore databases and tables. The databases and tables are actually metadata (_i.e._,
-    data such as table name and description, column names, types and descriptions, about the data itself);
-    the underlying data are stored in Parquet/Delta, as explained in the point just above
+  * Data files with an open standard of storage, namely [Delta](https://delta.io/)
+  whenever possible, or [Parquet](https://parquet.apache.org/) when Delta is
+  not possible
+  * Tables in databases. These tables are served through a standard and
+  open API, namely
+  [Hive Metastore](https://cwiki.apache.org/confluence/display/hive/design#Design-Metastore).
+  [AWS Glue](https://github.com/awslabs/aws-glue-data-catalog-client-for-apache-hive-metastore)
+  and
+  [GCP Dataproc](https://cloud.google.com/dataproc-metastore/docs/hive-metastore)
+  both implement the Hive Metastore API. In the documentation, Glue/Dataproc
+  databases and tables may be interchanged with Hive Metastore databases and
+  tables. The databases and tables are actually metadata (_i.e._,
+  data such as table name and description, column names, types and
+  descriptions, about the data itself);
+  the underlying data are stored in Parquet/Delta, as explained in the point
+  just above
 * The modern data lake is structured around the so-called
   [medallion architecture](https://www.advancinganalytics.co.uk/blog/medallion-architecture),
-  representing different levels of data "refinement": Bronze, Silver, Gold and Insight. Each level has its own rules
-  and conventions that should be applied systematically and this page serves as a reference of these rules
+  representing different levels of data "refinement": Bronze, Silver, Gold and
+  Insight. Each level has its own rules and conventions that should be applied
+  systematically and this page serves as a reference of these rules
   (and should therefore be kept constantly up to date)
 
+## Declarative vs imperative
+
+### Spec-driven development (SDD)
+
+* [GitHub - Spec-kit](https://github.com/github/spec-kit)
+  * [GitHub - Spec-kit - Spec-driven development (SDD)](https://github.com/github/spec-kit/blob/main/spec-driven.md)
+* [Martin Fowler's blog](https://martinfowler.com/)
+  [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html),
+  by [Birgitta Böckeler](https://birgitta.info/), Oct. 2025
+
+### Spec-driven workflow
+
+* Title: Spec-Driven Development: A Practical Guide for Software and
+  Data Engineering Teams
+* Date: May 2026
+* Author: Sanjeeb Panda
+  ([Sanjeeb Panda on LinkedIn](https://www.linkedin.com/in/sanjeeb-panda-848a7333/),
+  [Sanjeeb Panda on Medium](https://medium.com/@sanjeebmeister))
+* [Medium - Spec-Driven Development: A Practical Guide for Software & Data Engineering Teams](https://medium.com/@sanjeebmeister/spec-driven-development-a-practical-guide-for-software-data-engineering-teams-b6ea7108b67e)
